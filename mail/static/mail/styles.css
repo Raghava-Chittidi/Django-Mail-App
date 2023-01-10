@@ -1,0 +1,43 @@
+textarea {
+    min-height: 400px;
+}
+
+#sent-view > div, #emails-view > div, #archive-view > div{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 1.3em;
+    border: 1px black solid;
+}
+
+div > span{
+    width: 100%;
+}
+
+div > .recipients{
+    float: left;
+    font-weight: 600;
+    margin-left: 5px;
+    width: 200px;
+}
+
+div > .subject{
+    text-align: left;
+    margin-left: 15px;
+}
+
+div > .timestamp{
+    display: flex;
+    font-size: 0.8em;
+    color: grey;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+#emails-id-view > div > div > h5{
+    display: inline;
+}
+
+#emails-id-view{
+    font-size: 1.25em;
+}
